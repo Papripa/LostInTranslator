@@ -1,0 +1,108 @@
+.btn {
+  all: unset;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 460px;
+  background-color: white;
+  padding: 45px 30px;
+  border-radius: 4px;
+}
+
+.container button:hover {
+  opacity: 0.8;
+}
+
+.container > .logo {
+  width: 200px;
+  margin-bottom: 23px;
+  cursor: pointer;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  color: #313b46;
+  margin: 0px 0px 26px 0px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.forms input {
+  font-family: 'Noto Sans CJK KR', sans-serif;
+  font-size: 12px;
+}
+
+.forms input::placeholder {
+  color: #e5e5e5;
+}
+
+.forms input:nth-of-type(1) {
+  margin-bottom: 8px;
+}
+
+.buttons {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.buttons .main_button {
+  display: flex;
+  flex-direction: row;
+  height: 62px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main_button > .login_button {
+  width: 100%;
+  border-radius: 4px;
+  background-color: #06629b;
+}
+/* 
+.main_button > .auth_button {
+  width: 40%;
+  margin-left: 10px;
+  border-radius: 4px;
+  background-color: #d1d1d1;
+} */
+/* 
+.buttons .other_button {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.buttons .other_button .btn {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+  color: #cecece;
+}
+
+.buttons .other_button .btn:nth-last-of-type(1)::before {
+  content: '|';
+  margin: 0px 10px;
+}
+
+.buttons .other_button .btn:hover {
+  color: #aaaaaa;
+}
+
+.buttons .other_button .btn:hover::before {
+  color: #cecece;
+} */

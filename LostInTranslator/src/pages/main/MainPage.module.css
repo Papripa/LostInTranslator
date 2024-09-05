@@ -1,0 +1,46 @@
+.btn {
+  all: unset;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 460px;
+  background-color: white;
+  padding: 45px 30px;
+  border-radius: 4px;
+}
+
+.container button:hover {
+  opacity: 0.8;
+}
+
+.container > .logo {
+  width: 200px;
+  margin-bottom: 23px;
+  cursor: pointer;
+}
+
+.buttons {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.buttons .main_button {
+  display: flex;
+  flex-direction: row;
+  height: 62px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main_button > .logout_button {
+  width: 100%;
+  border-radius: 4px;
+  background-color: #ed1213;
+}

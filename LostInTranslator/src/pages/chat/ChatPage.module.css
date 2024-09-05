@@ -1,0 +1,25 @@
+.btn {
+  all: unset;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 460px;
+  background-color: white;
+  padding: 45px 30px;
+  border-radius: 4px;
+}
+
+.container button:hover {
+  opacity: 0.8;
+}
+
+.container > .logo {
+  width: 200px;
+  margin-bottom: 23px;
+  cursor: pointer;
+}
